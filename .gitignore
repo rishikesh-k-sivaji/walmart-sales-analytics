@@ -1,0 +1,42 @@
+# ── Data files (download from Kaggle separately) ──────────────
+data/
+
+# ── Jupyter Notebook checkpoints ──────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Python cache ───────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ───────────────────────────────────────
+venv/
+env/
+.env/
+
+# ── OS files ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Power BI temp files ────────────────────────────────────────
+*.pbix.bak
+*.pbix.tmp
+
+# ── Model files (large) ────────────────────────────────────────
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# ── Logs ───────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── IDE files ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace

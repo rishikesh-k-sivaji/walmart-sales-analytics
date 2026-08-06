@@ -24,7 +24,7 @@ and identify what drives high vs low performing weeks.
 - [Project Structure](#project-structure)
 - [Pipeline](#pipeline)
 - [Phase 1 — EDA](#phase-1--exploratory-data-analysis)
-- [Phase 2 — Insights](#phase-2--pandas-insights & SQL Analysis).
+- [Phase 2 — Pandas Insights & SQL Analysis](#phase-2--pandas-insights--sql-analysis)
 - [Phase 3 — Feature Engineering](#phase-3--feature-engineering)
 - [Phase 4 — XGBoost Regressor](#phase-4--xgboost-regressor)
 - [Phase 5 — Classification Models](#phase-5--classification-models)

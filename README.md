@@ -74,7 +74,8 @@ walmart-retail-analytics/
 │   ├── 03_Feature_Engineering.ipynb
 │   ├── 04_XGBoost_Final_v2.ipynb
 │   └── 05_XGBoost_Classifier.ipynb
-│
+├── walmart_sql_analysis.sql    <- 15 business queries across store, department, holiday and markdown analysis
+│   
 ├── output/
 │   ├── EDA/
 │   │   ├── 01_missing_values.png
@@ -205,6 +206,20 @@ Power BI Dashboard (4 pages)
 | ![Holiday Performance](output/pandas_insights/02_holiday_performance.png) | Named holiday avg sales and lift % |
 | ![Seasonality Overview](output/pandas_insights/03_seasonality_overview.png) | Monthly and quarterly sales overview |
 | ![Dept Pareto](output/pandas_insights/04_dept_pareto.png) | Pareto chart — department revenue concentration |
+
+## SQL Analysis
+
+**File:** `sql/walmart_sql_analysis.sql`
+
+15 business queries written in MySQL across 5 sections:
+
+| Section | Queries |
+|---|---|
+| Store Performance | Top and bottom 10 stores, avg sales by store type, store size vs sales |
+| Department Analysis | Top and bottom 10 departments, top 5 departments per store |
+| Seasonality | Yearly sales, highest and lowest sales weeks |
+| Holiday Impact | Holiday vs normal week, holiday impact by store type |
+| Markdown Analysis | Markdown active vs no markdown, CPI and unemployment by store |
 
 ---
 
